@@ -148,3 +148,14 @@ E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Aute
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Users\Details.cshtml.g.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Users\Edit.cshtml.g.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Users\Index.cshtml.g.cs
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.csproj.AssemblyReference.cache
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\RPC_Autentication_Module.StaticWebAssets.xml
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.MvcApplicationPartsAssemblyInfo.cs
