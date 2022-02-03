@@ -9,7 +9,6 @@ E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Aute
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\RPC_Autentication_Module.pdb
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\RPC_Autentication_Module.Views.dll
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\RPC_Autentication_Module.Views.pdb
-E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.csproj.AssemblyReference.cache
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.GeneratedMSBuildEditorConfig.editorconfig
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.AssemblyInfoInputs.cache
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.AssemblyInfo.cs
