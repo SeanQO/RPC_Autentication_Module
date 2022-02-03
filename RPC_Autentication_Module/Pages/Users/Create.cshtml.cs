@@ -25,7 +25,9 @@ namespace RPC_Autentication_Module.Pages.Users
         }
 
         [BindProperty]
+#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
         public User User { get; set; }
+#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
