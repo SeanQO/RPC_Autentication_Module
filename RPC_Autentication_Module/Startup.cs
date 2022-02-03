@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using RPC_Autentication_Module.Data;
 
 namespace RPC_Autentication_Module
 {
@@ -24,6 +26,9 @@ namespace RPC_Autentication_Module
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<RPC_Autentication_ModuleContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("RPC_Autentication_ModuleContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
