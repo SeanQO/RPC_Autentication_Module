@@ -25,7 +25,7 @@ namespace RPC_Autentication_Module
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication().AddCookie("CookieAuth", options => {
+            services.AddAuthentication("CookieAuth").AddCookie("CookieAuth", options => {
                 options.Cookie.Name = "CookieAuth";
 
             });
@@ -55,6 +55,7 @@ namespace RPC_Autentication_Module
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

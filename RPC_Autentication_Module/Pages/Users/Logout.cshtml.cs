@@ -14,10 +14,16 @@ namespace RPC_Autentication_Module.Pages.Users
 {
     public class LogoutModel : PageModel
     {
-        public async Task<IActionResult> OnPostAsync() 
+
+        public async Task<IActionResult> OnPostAsync()
         {
             await HttpContext.SignOutAsync("CookieAuth");
+
             return RedirectToPage("Login");
         }
+
+        
     }
+
+ 
 }
