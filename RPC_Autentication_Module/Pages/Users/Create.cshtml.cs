@@ -40,7 +40,7 @@ namespace RPC_Autentication_Module.Pages.Users
             _context.User.Add(User);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Login");
         }
     }
 }
