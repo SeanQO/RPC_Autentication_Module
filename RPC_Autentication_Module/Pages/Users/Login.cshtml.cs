@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using RPC_Autentication_Module.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -16,6 +17,15 @@ namespace RPC_Autentication_Module.Pages.Users
         [BindProperty]
         public Credential credential { get; set; }
 
+        private readonly RPC_Autentication_Module.Data.RPC_Autentication_ModuleContext _context;
+
+        public LoginModel(RPC_Autentication_Module.Data.RPC_Autentication_ModuleContext context)
+        {
+            _context = context;
+        }
+
+        private User user;
+
         public void OnGet()
         {
 
@@ -23,10 +33,9 @@ namespace RPC_Autentication_Module.Pages.Users
 
         public async Task<IActionResult> OnPostAsync()
         {
-            Console.Out.WriteLine("HWELLLOo");
             if (!ModelState.IsValid) return Page();
 
-            if (credential.UserName == "admin" && credential.Password == "admin")
+            if (validateUser(credential.UserName , credential.Password))
             {
 
                 var claims = new List<Claim>
@@ -45,6 +54,26 @@ namespace RPC_Autentication_Module.Pages.Users
             }
 
             return Page();
+        }
+
+        private Boolean validateUser(String userName, String password) 
+        {
+            try
+            {
+                user = _context.User
+                    .Where(u => u.Username == userName)
+                    .FirstOrDefault();
+            }
+            catch 
+            {
+                return false;
+            }
+
+            if (user == null) return false;
+  
+            if(user.Password == password) return true;
+ 
+            return false;        
         }
     }
 
