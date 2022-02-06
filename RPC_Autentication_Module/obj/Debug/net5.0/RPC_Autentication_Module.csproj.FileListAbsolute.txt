@@ -159,3 +159,4 @@ E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Aute
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.MvcApplicationPartsAssemblyInfo.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Users\Login.cshtml.g.cs
+E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Shared\_UserLogged.cshtml.g.cs
