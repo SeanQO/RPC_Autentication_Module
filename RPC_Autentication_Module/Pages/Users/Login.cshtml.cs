@@ -26,9 +26,10 @@ namespace RPC_Autentication_Module.Pages.Users
 
         private User user;
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            if (User.Identity.IsAuthenticated) return RedirectToPage("Index");
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
