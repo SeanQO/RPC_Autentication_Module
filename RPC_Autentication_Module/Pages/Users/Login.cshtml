@@ -1,5 +1,61 @@
-@page
+@page "/"
 @model RPC_Autentication_Module.Pages.Users.LoginModel
-@{ 
-
+@{
+    ViewData["Title"] = "Login";
 }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="squareContainer">
+        <div class="division" style="max-height:min-content">
+            <h3>Sign in</h3>
+
+        </div>
+        <br />
+
+        <form>
+            <div>
+
+                <label>Username</label>
+                <br />
+                <input type="text" id="uName" name="username">
+            </div>
+
+            <div>
+                <label>Password</label>
+                <br />
+                <input type="password" id="psw" name="password" >
+            </div>
+            <br />
+
+            <div>
+                <input type="submit" asp-page="Index" value="SIGN IN">
+            </div>
+            <br />
+
+        </form>
+
+        <div class="division">
+        </div>
+        <br />
+
+        <div>
+            <form>
+                <label>New User</label>
+                <br />
+                <input type="submit" asp-page="Create" value="SIGN UP">
+                <script src="~/js"></script>
+            </form>
+            
+        </div>
+        <br />
+    </div>
+
+</body>
+</html>

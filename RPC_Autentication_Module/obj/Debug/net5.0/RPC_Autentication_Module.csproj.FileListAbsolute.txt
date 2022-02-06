@@ -23,7 +23,6 @@ E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Aute
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.TagHelpers.output.cache
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\RPC_Autentication_Module.RazorCoreGenerate.cache
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 E:\Desktop\u\7mo\Integrador\Taller_Razor_Pages\RPC_Autentication_Module\RPC_Autentication_Module\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
