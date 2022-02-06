@@ -25,6 +25,11 @@ namespace RPC_Autentication_Module
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication().AddCookie("CookieAuth", options => {
+                options.Cookie.Name = "CookieAuth";
+
+            });
+
             services.AddRazorPages();
 
             services.AddDbContext<RPC_Autentication_ModuleContext>(options =>

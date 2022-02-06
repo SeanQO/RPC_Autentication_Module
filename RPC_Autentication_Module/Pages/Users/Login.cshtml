@@ -13,48 +13,48 @@
 </head>
 <body>
     <div class="squareContainer">
-        <div class="division" style="max-height:min-content">
-            <h3>Sign in</h3>
+        <form method="post">
+            <div class="division" style="max-height:min-content">
+                <h3>Sign in</h3>
 
-        </div>
-        <br />
-
-        <form>
-            <div>
-
-                <label>Username</label>
-                <br />
-                <input type="text" id="uName" name="username">
-            </div>
-
-            <div>
-                <label>Password</label>
-                <br />
-                <input type="password" id="psw" name="password" >
             </div>
             <br />
 
             <div>
-                <input type="submit" asp-page="Index" value="SIGN IN">
+
+                <label asp-for="credential.UserName"></label>
+                <br />
+                <input type="text" asp-for="credential.UserName">
+            </div>
+
+            <div>
+                <label asp-for="credential.Password"></label>
+                <br />
+                <input type="text" asp-for="credential.Password">
+            </div>
+
+            <br />
+
+            <div>
+                <input type="submit" value="SIGN IN">
             </div>
             <br />
 
-        </form>
+            <div class="division">
+            </div>
+            <br />
 
-        <div class="division">
-        </div>
-        <br />
-
-        <div>
-            <form>
+            <div>
                 <label>New User</label>
                 <br />
                 <input type="submit" asp-page="Create" value="SIGN UP">
                 <script src="~/js"></script>
-            </form>
-            
-        </div>
-        <br />
+
+            </div>
+            <br />
+
+        </form>
+        
     </div>
 
 </body>
