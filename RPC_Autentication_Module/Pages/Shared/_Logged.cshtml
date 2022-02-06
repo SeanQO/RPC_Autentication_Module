@@ -1,4 +1,17 @@
-﻿
-<form method="post" class="form-inline" asp-page="/Users/Logout">
-    <button type="submit" class="m1-2 btn btn-link">Logout</button>
+﻿@if (User.Identity.IsAuthenticated)
+{
+<form method="post" asp-page="/Users/Logout">
+    <div class="container">
+        <div style="text-align:center">
+            @User.Identity.Name
+        </div>
+        <div style="text-align:center">
+            <img src="~/images/user.png" alt="image" style="max-height: 56px" />
+        </div>
+        <div style="text-align:center">
+            <button type="submit" class="m1-2 btn btn-link">Logout</button>
+        </div>
+    </div>
 </form>
+}
+

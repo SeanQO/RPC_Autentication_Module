@@ -40,7 +40,7 @@ namespace RPC_Autentication_Module.Pages.Users
 
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.NameIdentifier, credential.UserName)
+                    new Claim(ClaimTypes.Name, credential.UserName)
                 };
 
                 var identity = new ClaimsIdentity(claims, "CookieAuth");
